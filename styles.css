@@ -9,7 +9,7 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .nav{
   padding:5px 12px;
   float:right;
 }
@@ -21,7 +21,23 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
   position:absolute;
+  width: 1em;
+  height: 1.5em;
+}
+
+.x{
+  width: 150px;
+  height: 150px;
+  position:absolute; 
+ }
+
+ .rotate {
+  transform: rotateY(180deg);
+ }
+
+.weird{
+  position:absolute;
+  width: 150px;
+  height: 150px
 }
